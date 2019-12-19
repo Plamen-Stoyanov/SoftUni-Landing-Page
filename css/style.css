@@ -15,6 +15,13 @@
     box-sizing: inherit;
 }
 
+.btn:hover,
+.btn-lg:hover,
+.btn-xl:hover,
+.button:hover {
+    cursor: pointer;
+}
+
 body {
     font-family: 'Lato',
         sans-serif;
