@@ -1,0 +1,489 @@
+:root {
+    --primary-color: #264066;
+    --secondary-color: #FFA000;
+    --div-color: #F2F2F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato',
+        sans-serif;
+    line-height: 1.6;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.header {
+    background-color: var(--primary-color);
+    height: 50px;
+}
+
+.header img {
+    width: 35%;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    padding: 10px 150px;
+}
+
+nav {
+    float: left;
+    margin-right: 1rem;
+}
+
+.fas {
+    color: #869CB1;
+}
+
+.btn {
+    background: var(--secondary-color);
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 1rem;
+}
+
+.ul-nav li {
+    display: inline;
+    list-style: none;
+}
+
+.ul-nav li a {
+    text-decoration: none;
+    padding: 0rem 3px;
+    font-size: 12px;
+    color: #869CB1;
+    font-weight: bold;
+}
+
+.logo-nav {
+    display: inline-flex;
+}
+
+.logo-nav .btn-lg {
+    background: var(--secondary-color);
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.main .main-h4 {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    color: var(--primary-color);
+    display: flex;
+}
+
+.main .main-h4 h4 {
+    padding: 1rem;
+}
+
+.main .main-h4 h4:first-child {
+    color: #D68833;
+}
+
+.main-h4 .border {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.section-a {
+    text-align: center;
+    background: url("../images/details-background.png");
+    color: white;
+}
+
+.section-a-inner h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.section-a-inner ul li {
+    display: inline;
+    padding: 7px;
+    font-size: 1rem;
+}
+
+.section-a-inner ul i {
+    padding: 16px 5px;
+    color: white;
+}
+
+.section-a-inner .btn-xl {
+    background: var(--secondary-color);
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    padding: 7px 75px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin: 27px;
+}
+
+.section-b {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 20px 0;
+}
+
+.section-b-inner {
+    width: 80%;
+    background: var(--div-color);
+}
+
+.section-b-inner h2 {
+    padding: 10px;
+}
+
+.section-b-inner h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 12%;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+.section-b-inner p {
+    text-align: left;
+    padding: 5px 55px;
+    color: var(--primary-color);
+}
+
+.section-b-inner .btn-xl {
+    background: var(--secondary-color);
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    padding: 7px 75px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin: 27px;
+}
+
+.section-c {
+    margin-bottom: 20px;
+}
+
+.section-c .container {
+    text-align: center;
+    background: var(--div-color);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-c-inner {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px auto;
+    background: var(--div-color);
+}
+
+.section-c .container h2 {
+    padding: 1rem;
+}
+
+.section-c .container h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+.section-c-inner div {
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.section-c-inner div p {
+    padding-bottom: 8px;
+}
+
+.section-c-inner div p i {
+    font-size: 25px;
+    color: var(--secondary-color);
+}
+
+.section-d-inner {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px auto;
+    background: var(--div-color);
+    padding-bottom: 2rem;
+}
+
+.section-d-inner ul li {
+    list-style: none;
+    background: #D9D9D9;
+    margin-bottom: 10px;
+    border-left: 3px solid var(--primary-color);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.section-d-inner ul li span {
+    padding-right: 20px;
+}
+
+
+.container-d {
+    text-align: center;
+    background: var(--div-color);
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.container-d h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 7%;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+.section-d-inner ul {
+    width: 95%;
+}
+
+.section-d-inner .first-column {
+    padding-left: 40px;
+}
+
+.section-d-inner .second-column {
+    padding-left: 50px;
+    width: 95%;
+}
+
+.container-e {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-e .first-div {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-e .first-div h2 {
+    padding-top: 5px;
+    color: white;
+}
+
+.section-e .first-div h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 38%;
+    border-bottom: 5px solid white;
+
+}
+
+.section-e .first-div p {
+    padding: 15px 45px;
+    text-align: left;
+}
+
+.section-e .second-div {
+    background: var(--div-color);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second-div ul {
+    line-height: 23px;
+}
+
+.second-div .second-div-first-container {
+    padding: 8px 25px;
+}
+
+.second-div-first-container h3 {
+    color: var(--secondary-color);
+    padding-top: 8px;
+}
+
+.second-div-second-container {
+    color: white;
+    background: var(--primary-color);
+    position: relative;
+    left: 15px;
+    top: 5px;
+    box-shadow: 3px 4px 35px -7px rgba(0, 0, 0, 0.75);
+    width: 97.5%;
+}
+
+.second-div-first-container .bold {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.second-div-second-container .inner-second {
+    background: var(--secondary-color);
+    padding: 5px;
+}
+
+.second-div-second-container .inner-first {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 5px;
+}
+
+.second-div-second-container .inner-first h3 {
+    position: relative;
+    right: 160px;
+}
+
+.second-div-second-container .inner-second {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.second-div-second-container .inner-second h3 {
+    position: relative;
+    right: 195px;
+}
+
+.second-div-second-container .inner-second ul {
+    position: relative;
+    left: 35px;
+}
+
+.section-f {
+    margin-top: 20px;
+}
+
+.section-f .container {
+    width: 80%;
+    background: var(--div-color);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-f .container h3,
+h2 {
+    color: var(--primary-color);
+}
+
+.section-f .container h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+.section-f-inner .container {
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.section-f-inner .container img {
+    position: relative;
+    right: 27px;
+    width: 98px;
+    height: 95px;
+    top: 14px;
+    border-radius: 50%;
+}
+
+.section-f-inner .lecturer {
+    text-align: left;
+    position: relative;
+    left: 199px;
+}
+
+.section-f .button {
+    text-align: center;
+}
+
+.section-f .button .btn-xl {
+    background: var(--secondary-color);
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    padding: 7px 75px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background: var(--primary-color);
+    font-size: 1rem;
+}
+
+.footer .container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin: 0px 8rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.footer .container div {
+    margin-top: 2rem;
+}
+
+.footer .container ul li {
+    list-style: none;
+}
+
+.footer .container div h4 {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.footer .container div i {
+    margin: 0.4rem;
+    padding-bottom: 1rem;
+}
+
+.footer .container div p {
+    padding-bottom: 0.4rem;
+}
